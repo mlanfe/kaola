@@ -1,0 +1,410 @@
+@charset 'utf-8';
+/* mian的顶部图片 */
+#main .imgwrap a{
+  display: inline-block;
+  background-image: url(../img/main1.png);
+  height: 308px;
+  width: 100%;
+  background-position: center;
+  margin: 20px 0 0 0;
+}
+#main .imgwrap{
+  height: 328px;
+}
+
+/* 户外运动商品 */
+#main .outdoorsports .sportstitle{
+  height: 48px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9
+}
+#main .outdoorsports .sportstitle .tip{
+  float: left;
+  width: 90px;
+  color: #333;
+  font: 22px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  font-weight: 700;
+}
+#main .outdoorsports .sportstitle ul{
+  float: left;
+  width: 1010px;
+}
+#main .outdoorsports .sportstitle li{
+  float: left;
+  font-size: 14px;
+  margin-left: 14px;
+  line-height: 48px;
+}
+#main .outdoorsports .sportstitle li a{
+  float: left;
+  color: #999;
+}
+#main .outdoorsports .sportstitle li:hover .underl{
+  text-decoration: underline;
+}
+#main .outdoorsports .sportstitle li .hot{
+  color: #ff1e32;
+}
+#main .outdoorsports .sportstitle li:last-child{
+  float: right;
+}
+#main .outdoorsports .sportstitle i{
+  display: inline-block;
+  margin-left: 5px;
+  width: 7px;
+  height: 7px;
+  border-top: .8px solid #999;
+  border-left: .8px solid #999;
+  transform: rotate(135deg);
+}
+#main .outdoorsports .sportscontent{
+  position: relative;
+  height: 541px;
+}
+#main .outdoorsports .sportscontent .partl{
+  float: left;
+}
+#main .outdoorsports .sportscontent .partl img{
+  width: 330px;
+  height: 541px;
+}
+#main .outdoorsports .sportscontent .partl .types{
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  width: 330px;
+}
+#main .outdoorsports .sportscontent .types li{
+  float: left;
+  width: 82px;
+  height: 42px;
+  background: #fff;
+  border:1px solid #eee;
+  border-radius: 40px;
+  margin:0 18px 8px 0;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  overflow: hidden;
+}
+#main .outdoorsports .sportscontent .types a{
+  display: inline-block;
+  text-align: center;
+  width: 82px;
+  font-size: 12px;
+  line-height: 42px;
+}
+#main .outdoorsports .sportscontent .types a:hover{
+  color: #ff1e32;
+  background-color:transparent;
+}
+
+#main .outdoorsports .sportscontent .partc{
+  float: left;
+  width: 550px;
+  height: 541px;
+  border-top: 1px solid #e9e9e9;
+  text-align: center;
+  /* overflow: hidden; */
+}
+#main .outdoorsports .sportscontent .partc a{
+  float: left;
+  width: 274px;
+  height: 269px;
+  background-color: #fff;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+#main .outdoorsports .sportscontent .partc h3{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 30px;
+}
+#main .outdoorsports .sportscontent .partc p{
+  font-size: 14px;
+  margin-top: 10px;
+  color: #666;
+}
+#main .outdoorsports .sportscontent .partr{
+  float: left;
+  position: relative;
+  width: 219px;
+  height: 540px;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  background-color: #fff;
+}
+#main .outdoorsports .sportscontent .partr  .title{
+  width: 208px;
+  height: 58px;
+  border-bottom: 1px solid #e9e9e9;
+  padding-left: 10px;
+}
+#main .outdoorsports .sportscontent .partr .newhot{
+  float: left;
+  width: 64px;
+  height: 58px;
+  font: 16px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  line-height: 58px;
+  color: #333;  
+}
+#main .outdoorsports .sportscontent .partr .dots{
+  float: right;
+  height: 58px;
+  width: 140px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+#main .outdoorsports .sportscontent .partr .dots ul{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 8px;
+  width: 50px;
+  margin: auto 5px auto 0;
+  vertical-align: middle;
+}
+#main .outdoorsports .sportscontent .partr .dots li{
+  float: right;
+  margin-right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+} 
+#main .outdoorsports .sportscontent .partr .dots li:first-child{
+  background-color: black;
+}
+#main .outdoorsports .sportscontent .partr .products li{
+  width: 205px;
+  height: 92px;
+  border-bottom: 1px dotted #e9e9e9;
+  padding: 27px 14px 0 0;
+}
+#main .outdoorsports .sportscontent .partr .products li:last-child{
+  border-bottom: none;
+}
+#main .outdoorsports .sportscontent .partr .products .pic{
+  float: left;
+  margin-left: 5px;
+}
+#main .outdoorsports .sportscontent .partr .products div{
+  float: left;
+  margin-left: 5px;
+}
+#main .outdoorsports .sportscontent .partr .products h3{
+  display: block;
+  height: 36px;
+  width: 119px;
+  overflow: hidden;
+  line-height: 18px;
+}
+#main .outdoorsports .sportscontent .partr .products .description{
+  font: 12px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  color: #666666;
+  line-height: 18px;
+}
+#main .outdoorsports .sportscontent .partr .products .description:hover{
+  text-decoration: underline;
+}
+#main .outdoorsports .sportscontent .partr .products p{
+  height:30px;
+  width: 119px;
+}
+#main .outdoorsports .sportscontent .partr .products p span:nth-of-type(1){
+  font-size: 18px;
+  color: #ff1e32;
+}
+#main .outdoorsports .sportscontent .partr .products p strong:nth-of-type(1){
+  font-size: 20px;
+  color: #ff1e32;
+}
+#main .outdoorsports .logolist{
+  margin-top: 20px;
+  border: 1px solid #e9e9e9;
+
+  background-color: #fff;
+  overflow: hidden;
+}
+#main .outdoorsports .logolist .txt{
+  font: 16px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  font-weight: 700;
+  color: #000;
+  width: 1068px;
+  height: 48px;
+  border-bottom: 1px solid #e9e9e9;
+  padding-left: 30px;
+  line-height: 48px;
+}
+#main .outdoorsports .logolist .logoitem{
+  margin:  0 -2px 0 0;
+}
+#main .outdoorsports .logolist .logoitem li{
+  float: left;  
+  position: relative;
+  border-right: 1px solid #e9e9e9;
+}
+#main .outdoorsports .logolist .logoitem li a{
+  display: inline-block;
+  width: 219px;
+  height: 167px;
+}
+#main .outdoorsports .logolist .logoitem li img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+#main .outdoorsports .logolist .logoitem li .collect{
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/mian-outdoorsports-logolist-collect.png);
+}
+#main .outdoorsports .logolist .logoitem li:hover .collect{
+  display:inline-block
+}
+
+/* 热门品牌 */
+#main .hotbrand{
+  margin-top: 40px;
+}
+#main .hotbrand .title{
+  height: 48px;
+  width: 1100px;
+  padding-top: 25px;
+  border-top: 1px solid #e9e9e9;
+}
+#main .hotbrand .title .txt1{
+  font: 22px Helvetica Neue,Helvetica,Arial,Hiragino;
+  color: #333;
+  font-weight: 700;
+  margin-right: 20px;
+}
+#main .hotbrand .title .txt2{
+  font-size: 14px;
+}
+#main .hotbrand .title .change{
+  float: right;
+  margin-top: 10px;
+}
+#main .hotbrand .title .change a{
+  font: 14px Helvetica Neue,Helvetica,Arial,Hiragino;
+  color: #999;
+}
+#main .hotbrand .title .change img{
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  transition: ease .7s transform;
+}
+#main .hotbrand .title a:hover{
+  text-decoration: underline;
+}
+#main .hotbrand .title a:hover img{
+  transform: rotate(360deg);
+}
+#main .hotbrand .left{
+  float: left;
+  width: 218px;
+  height: 353px;
+  border: 1px solid #e9e9e9;
+  background-color: #151515;
+  color: #fff;
+  text-align: center;
+}
+#main .hotbrand .left img{
+  width: 218px;
+  height: 218px;
+}
+#main .hotbrand .left .info1{
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#main .hotbrand .right{
+  float: left;
+  width: 880px;
+  height: 354px;
+  border-top: 1px solid #e9e9e9;
+  text-align: center;
+  background-color: #fff;
+}
+#main .hotbrand .right li{
+  float: left;
+  position: relative;
+  width: 219px;
+  height: 176px;
+  border-right: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+}
+#main .hotbrand .right li .unactive img{
+  margin-top: 12px;
+  transition: transform ease-in .3s ;
+}
+#main .hotbrand .right li .unactive p{
+  font-size: 14px;
+  color: #333;
+  font-weight: 700;
+  padding-top: 10px;
+  opacity: 1;
+  transition: opacity ease-in .3s;
+}
+#main .hotbrand .right li .active{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  
+  transition: opacity ease-in .3s;
+}
+#main .hotbrand .right li .active .focus{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 52px;
+  height: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+}
+#main .hotbrand .right li .active .focus a{
+  color: #999;
+}
+#main .hotbrand .right li .active .info p{
+  margin: 99px 0 8px;
+}
+#main .hotbrand .right li .active .info a{
+  display: inline-block;
+  width: 76px;
+  height: 32px;
+  border: 2px solid #ff1e3c;
+  border-radius: 20px;
+  color: #ff1e3c;
+  font-size: 14px;
+  line-height: 32px;
+}
+#main .hotbrand .right li .active .info a:hover{
+  background-color: #fff4f5;
+}
+#main .hotbrand .right li:hover .active{
+  opacity: 1;
+}
+#main .hotbrand .right li:hover .unactive img{
+  transform: scale(.66);
+  transform-origin: center 0;
+}
+#main .hotbrand .right li:hover .unactive p{
+  opacity: 0;
+}

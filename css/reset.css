@@ -1,0 +1,39 @@
+@charset 'utf-8';
+
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul{
+  padding: 0;
+  margin: 0;
+}
+
+ul,ol,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+i,em{
+  font-style: normal;
+}
+
+input,textarea,button,select,a{
+  outline: 0;
+  border: 0;
+}
+
+table{
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img{
+  vertical-align: middle;
+  /* 老版本的的浏览器会为图片加边框 */
+  border: 0;
+}

@@ -1,0 +1,198 @@
+@charset 'utf-8';
+/* top导航栏 */
+#top .toptab{
+  border-bottom:1px solid #ccc;
+  height: 40px;
+}
+#top .toptab .allclassification{
+  float: left;
+  position: relative;
+  width: 164px;
+  height: 40px;
+  font: 14px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  color: #fff;
+  background: linear-gradient(to right,#f00,#ff3264);
+  border-bottom: 1px solid #ff5160;
+}
+#top .toptab .allclassification .lineicon{
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+  margin: 0 24px 0 15px;
+}
+#top .toptab .lineicon i{
+  float: left;
+  margin-top: 3px;
+  width: 12px;
+  height: 0;
+  border-top: 2px solid #ddd ;
+}
+#top .toptab .allclassification .lineicon i:first-child{
+  margin-top: 0;
+}
+#top .toptab .allclassification span{
+  display: inline-block;
+  line-height: 40px;
+}
+#top .toptab .functab{
+  float: left;
+  padding-left: 20px;
+}
+#top .toptab .allclassification .menu{
+  position: absolute;
+  top: 41px;
+  z-index: 1;
+}
+#top .toptab .allclassification .menu ul{
+  display: inline-block;
+}
+#top .toptab .allclassification .menu li{
+  display: inline-block;
+  width: 164px;
+  height: 37.33px;
+  background: linear-gradient(to right,#f00,#ff3264);
+  border-bottom: 1px solid #ff5160;
+}
+#top .toptab .allclassification .menu li:hover{
+  background: linear-gradient(to right,#fff,#fff);
+}
+#top .toptab .allclassification .menu li:hover a{
+  color: #ff1e32
+}
+#top .toptab .allclassification .menu li:hover i{
+  background-image: url(../img/top-menu-item1-1.png);
+}
+#top .toptab .allclassification .menu i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 0 20px 0 4px;
+  vertical-align: middle;
+  background-image: url(../img/top-menu-item1.png);
+  background-repeat: no-repeat;
+}
+#top .toptab .allclassification .menu a{
+  font: 14px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  color: #fff;
+  line-height: 40px;
+  padding-left: 11px;
+}
+#top .toptab .functab li{
+  display: inline-block;
+  padding: 0 20px;
+  font: 15px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  line-height: 40px;
+  font-weight: 700;
+}
+/* top的swiper部分 */
+#top .swiper{
+  position: relative;
+  overflow: hidden;
+  min-width: 1000px;
+}
+#top .swiper img{
+  transform: translate(-50%);
+  margin-left: 50%;
+}
+/* top的毛玻璃效果 */
+#top .filtermenu{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+
+}
+#top .filtermenu .blur{
+  height: 45px;
+  background: url(../img/top-showimg.jpg);
+  background-position: bottom;
+  filter: blur(8px);
+}
+#top .filtermenu .service{
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+#top .filtermenu .service li{
+  float: left;
+  line-height: 45px;
+  width: 77px;
+  margin-left: 40px;
+}
+#top .filtermenu .service i{
+  display: inline-block;
+  margin-right: 5px;
+}
+#top .filtermenu .service span:hover{
+  text-decoration: underline;
+}
+#top .filtermenu .service li a{
+  color: #fff;
+ font: 14px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+}
+#top .filtermenu .service .right{
+  float: right;
+  line-height: 45px;
+}
+#top .filtermenu .service .right i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px -4px 0;
+  background: url(../img/top-filter5.png) no-repeat 50%;
+}
+#top .filtermenu .service .right a{
+  font: 12px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+  color: #fff;
+}
+/* 切换swiper图片的箭头 */
+#top .swiper .swiperchange{
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  height: 68px;
+}
+#top .swiper:hover .swiperchange{
+  display: inline;
+} 
+#top .swiper .swiperchange .left{
+  position: absolute;
+  left:169px;
+  width: 34px;
+  height: 68px;
+  background-image: url(../img/kaola-sprite1.png);
+  background-position: -625px -153px;
+}
+#top .swiper .swiperchange .right{
+  position: absolute;
+  right: 0;
+  width: 34px;
+  height: 68px;
+  background-image: url(../img/kaola-sprite1.png);
+  background-position: -670px -153px;
+}
+/* swiper上的圆点 */
+#top .swiper .directdots{
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 30px;
+}
+#top .swiper .directdots li{
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#top .swiper .directdots li:first-child{
+  margin-left: 250px;
+}
+

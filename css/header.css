@@ -1,0 +1,166 @@
+@charset 'utf-8';
+
+/* 顶部广告相关的样式 */
+#header .ad{
+  overflow: hidden;
+  min-width: 1100px;
+}
+#header .ad img{
+  /* 使图片始终居中显示 */
+  position: relative;
+  transform: translate(-50%);
+  left: 50%;
+}
+/* 顶部导航栏*/
+#header .nav{
+  display: block;
+  border-bottom: 1px solid #ededee;
+  background-color: #000;
+}
+#header .nav .wrap{
+  height: 30px;
+  line-height: 30px;
+}
+#header .wrap  a{
+  float: left;
+  color: #999;
+  padding: 0 14px 0 8px;
+}
+#header .wrap  a:hover{
+  color: #fff;
+}
+#header .wrap .nav-left{
+  float: left;
+}
+#header .nav-left .welcome{
+  float: left;
+}
+#header .wrap .nav-right{
+  float: right;
+}
+#header .wrap .nav-right .group1,.group2{
+  position: relative;
+  float: left;
+}
+#header .wrap .nav-right .group2 a{
+  padding: 0 14px 0 8px;
+}
+#header .wrap .nav-right .group2 a{
+  padding: 0 24px 0 16px;
+}
+#header .wrap .nav-right .group2 i{
+  position:absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-color: #999 transparent transparent;
+  border-width: 4px;
+  border-style: solid;
+  top: 50%;
+  margin-top: -2px;
+  margin-left: 4px;
+}
+#header .wrap .group2 a:hover{
+  background-color: #fff;
+  color: #ff1e32;
+}
+#header .wrap .group2 a:hover i{
+  transform: rotate(180deg);
+  transition: transform .2s linear;
+  border-color: #ff1e32 transparent transparent;
+
+  transform-origin:  4px 2px;
+}
+/* 顶部搜索区域 */
+.headsearch{
+  position: relative;
+  height: 100px;
+}
+.headsearch img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.headsearch .searchbox{
+  position: absolute;
+  left: 343px;
+  width: 510px;
+  height:40px;
+  background-color: #ff2337;
+  border-radius: 40px; 
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.headsearch .searchbox .wrap{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: #fff;
+  width: 479px;
+  height: 36px;
+  border-radius: 24px 0 0 24px;
+  left: 2px;
+}
+.headsearch .searchbox span{
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-image: url(../img/kaola-sprite1.png);
+  background-position: -466px -667px;
+  top: 13px;
+  left: 10px;
+}
+.headsearch .searchbox input{
+  position: absolute;
+  width: 410px;
+  height: 24px;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  margin: auto 0;
+}
+.headsearch i{
+  position: absolute;
+  background-color: #ff2337;
+  border-radius: 24px;
+  width: 60px;
+  height: 40px;
+  right: 0;
+  background-image: url(../img/head-search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.headsearch .shopcart{
+  position: absolute;
+  right: 76px;
+  top: 33px;
+  width: 106px;
+  height: 36px;
+  border: 2px solid #ff1e32;
+  border-radius: 36px;
+  background-color: #fff;
+}
+.headsearch .shopcart i{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 7px;
+  left: 15px;
+  background: url(../img/head-shopcart.png);
+}
+.headsearch .shopcart span{
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 50px;
+  color: #333;
+  font: 14px Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+}
+.headsearch .shopcart:hover{
+  background-color: #fff4f5;
+}
+.headsearch .shopcart:hover span{
+  color: #ff1e32;
+}
